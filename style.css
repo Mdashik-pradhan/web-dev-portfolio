@@ -1,28 +1,42 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-image: linear-gradient(rgb(2, 2, 39), rgb(0, 12, 0));
+    color: white;
+}
 section {
     display: flex;
     margin: auto;
     margin-top: 20px;
 }
 
-h1{
+h1 {
     font-size: 40px;
-}
-p{
-    font-size: 20px;
-    color: rgb(80, 80, 80);
+    font-family: 'Montserrat', sans-serif;
 }
 
-span{
+p {
+    font-size: 20px;
+    font-family: 'Bona Nova', serif;
+    color: rgb(238, 228, 228);
+}
+
+span {
     color: rgb(238, 171, 0);
 }
 
 button {
+    margin-top: 20px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: orange;
 }
-button> a {
+
+button>a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -36,11 +50,44 @@ button> a {
 
 }
 
-.img_section{
+.img_section {
     width: 500px;
     margin: auto;
 }
 
-.img_section> img{
+.img_section>img {
     width: 480px;
+}
+
+/* Experience area  */
+
+.experience_div {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-width: 0;
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(255, 166, 0), rgb(199, 0, 0)) 0 100%;
+    padding: 40px;
+
+}
+
+.experience_div>h1 {
+    font-size: 35px;
+    color: black;
+
+}
+
+.experience_div>p {
+    color: #333;
+
+}
+
+footer {
+    width: 500px;
+    margin: auto;
 }
