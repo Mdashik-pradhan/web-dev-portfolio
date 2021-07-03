@@ -1,0 +1,46 @@
+section {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
+
+span{
+    color: rgb(238, 171, 0);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+}
+button> a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content_section {
+    width: 500px;
+    margin: auto;
+
+}
+
+.img_section{
+    width: 500px;
+    margin: auto;
+}
+
+.img_section> img{
+    width: 480px;
+}
